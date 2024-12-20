@@ -10,5 +10,5 @@ setTimeout(function timer() {
     } else {
         console.log(`${names[i].innerHTML} already disabled, skipping to next, do not close the page...`)
     }
-  }, i * 500);
+  }, i * 200);
 }
